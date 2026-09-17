@@ -1,3 +1,6 @@
+<img width="1600" height="897" alt="11" src="https://github.com/user-attachments/assets/7a769e10-5a26-46eb-9b33-95a00a854c4b" />
+
+
 # AWS-osTicket-Installation-Setup-and-Ticket-Resolution-Lab
 
 ---
@@ -174,8 +177,6 @@ Troubleshooting / Support
 Ticket Resolution
 ```
 
-This architecture demonstrates how a cloud-hosted Windows server can be used to provide a centralized help desk platform for managing users, support requests, service levels, and technician workflows.
-
 ---
 
 # 🎯 Objectives
@@ -229,8 +230,6 @@ The primary objectives of this lab were to:
 
 # 🧠 Skills Demonstrated
 
-This project demonstrates practical experience with:
-
 * AWS EC2 virtual machine deployment
 * Windows Server administration
 * Remote Desktop administration
@@ -261,13 +260,13 @@ This project demonstrates practical experience with:
 
 ---
 
-## 📸 Summary Lab Step-by-Step Guide
+## 📸 Summary of the Lab Steps Guide
 
-Since you have **22 photos that serve as a high-level visual summary**, I would keep this section concise, just like your other repositories. The **full 1-hour video** can provide the detailed walkthrough beyond the summary images. Your other repos use this distinction between summary documentation and the full practical demonstration. ([GitHub][1])
-
-### Step 1: Creating AWS EC2 Windows Server Base 2025 Instance
-
-An Amazon EC2 Windows Server Base 2025 instance was configured as the foundation for the osTicket help desk environment.
+**Step 1: Creating AWS EC2 Windows Server Base 2025 Instance - An Amazon EC2 Windows Server Base 2025 instance was configured as the foundation for the osTicket help desk environment.**
+<br>
+<img width="1600" height="740" alt="Step 1  Instance Portal - Creating EC2 Windows Server Base 2025 Instance" src="https://github.com/user-attachments/assets/740f36ad-507b-47e5-8184-b917afd0fd68" />
+>
+<br>
 
 ### Step 2: Successful Creation of Instance
 
@@ -361,5 +360,40 @@ The **22 photos provide a visual summary of the major stages**, while the accomp
 
 [▶️ Watch the Full 1-Hour AWS osTicket Lab Demonstration](https://youtu.be/pN-alKwo3I4?si=Ko-juMD-KMsDvo46)
 
+---
 
-[1]: https://github.com/SyberGrind/Microsoft-365-Set-Up-and-Administration-Lab "GitHub - SyberGrind/Microsoft-365-Set-Up-and-Administration-Lab: Hands-on Microsoft 365 administration lab for Tugela Cloud Solutions, covering user and department setup, Microsoft Entra ID configuration, shared mailboxes, authentication, password resets, account blocking and restoration, deleted-user recovery, and Outlook mailbox testing through realistic administration scenarios. · GitHub"
+# 🌍 Real-World Relevance
+
+In a real-world IT environment, help desk technicians rely on centralized ticketing systems to receive, organize, prioritize, assign, track, and resolve technical support requests. osTicket provides a practical example of how these workflows can be implemented within an organization, with tickets moving from end-user submission through technician assignment and troubleshooting.
+
+This lab demonstrates how an IT technician can deploy and support a web-based help desk application within a cloud-hosted Windows Server environment. The project combines **AWS EC2 infrastructure, Windows Server administration, IIS web services, PHP, MySQL, database management, application deployment, user administration, SLAs, Help Topics, and ticket management**.
+
+The simulated environment reflects common responsibilities found in Help Desk and IT Technician roles, including:
+
+* Deploying and remotely administering Windows-based infrastructure.
+* Installing and configuring server-side applications and prerequisites.
+* Troubleshooting web-server and application dependencies.
+* Managing help desk agents and end users.
+* Organizing support requests through departments, teams, and Help Topics.
+* Establishing Service Level Agreements (SLAs) for support requests.
+* Receiving and reviewing end-user support tickets.
+* Assigning tickets to the appropriate support personnel.
+* Following a structured ticket workflow from submission through resolution.
+* Maintaining an organized and centralized record of support activity.
+
+The project also demonstrates how cloud infrastructure can provide a platform for hosting internal IT services. AWS EC2 provides the underlying compute environment, while IIS, PHP, MySQL, and osTicket work together to deliver the help desk application.
+
+Overall, this lab bridges the gap between **technical infrastructure administration and day-to-day IT support operations**, demonstrating how a technician can work across both the underlying Windows environment and the help desk platform used by end users.
+
+---
+
+# 🏁 Conclusion
+
+This AWS osTicket Installation, Setup & Ticket Resolution Lab provided a complete hands-on demonstration of deploying and administering a functional help desk environment from the ground up.
+
+The project began with the creation of a **Windows Server Base 2025 EC2 instance** and continued through the installation and configuration of IIS, CGI, PHP, PHP Manager, URL Rewrite Module, Microsoft Visual C++, MySQL, and HeidiSQL. Once the required environment was prepared, osTicket was successfully deployed and configured as the organization's help desk platform.
+
+The lab then moved beyond installation into practical help desk administration by configuring **agents, users, teams, departments, Service Level Agreements (SLAs), and Help Topics**. A simulated end-user support request was submitted through the Support Center and made available to the appropriate help desk agent, demonstrating the transition from **ticket intake to technician handling and resolution**.
+
+This project demonstrates practical skills across **AWS cloud infrastructure, Windows Server administration, IIS web services, application deployment, database management, help desk administration, user management, SLA configuration, troubleshooting, and ticket lifecycle management**.
+
