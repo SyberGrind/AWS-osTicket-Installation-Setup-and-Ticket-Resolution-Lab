@@ -1,0 +1,2 @@
+# AWS-osTicket-Installation-Setup-and-Ticket-Resolution-Lab
+AWS osTicket Installation, Setup &amp; Ticket Resolution Lab demonstrating hands-on IT Help Desk skills. Built a Windows Server 2025 EC2 instance, configured IIS, CGI, PHP, Rewrite Module, MySQL &amp; HeidiSQL, then deployed osTicket, configured agents, users, SLAs and help topics, submitted a support ticket and resolved it through the helpdesk workflow.
